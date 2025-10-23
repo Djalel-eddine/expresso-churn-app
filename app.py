@@ -7,18 +7,17 @@ Usage:
 The app auto-generates inputs from models/feature_metadata.json
 """
 
+from pathlib import Path
 import os
 import json
 import joblib
 import numpy as np
 import pandas as pd
 import streamlit as st
-from pathlib import Path
 
 # ---------- paths ----------
-BASE_DIR = Path(r"C:\Users\pc\Desktop\GMC DS\Cours\Streamlit")
-MODELS_DIR = BASE_DIR.joinpath('models')
-from pathlib import Path
+BASE_DIR = Path(__file__).resolve().parent
+MODELS_DIR = BASE_DIR / "models"
 
 MODEL_PATH = MODELS_DIR / "lgbm_churn_model.joblib"
 PREPROC_PATH = MODELS_DIR / "preprocessor.joblib"
