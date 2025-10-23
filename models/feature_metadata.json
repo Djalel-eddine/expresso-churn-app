@@ -1,0 +1,18 @@
+{
+  "numeric_features": [
+    "MONTANT",
+    "FREQUENCE_RECH",
+    "REVENUE",
+    "ARPU_SEGMENT",
+    "FREQUENCE",
+    "DATA_VOLUME",
+    "ON_NET",
+    "ORANGE",
+    "TIGO",
+    "ZONE1",
+    "ZONE2",
+    "REGULARITY",
+    "FREQ_TOP_PACK"
+  ],
+  "categorical_features": {}
+}
